@@ -1,8 +1,7 @@
-{
+˚{
   "name": "avm-enrichment-service",
   "version": "1.0.0",
-  "scripts": {
-    "dev": "tsx watch src/server.ts",
-    "start": "tsx src/server.ts"
-  }
-}	
+"scripts": {
+  "start": "tsx src/server.ts",
+  "dev": "tsx watch src/server.ts"
+}
