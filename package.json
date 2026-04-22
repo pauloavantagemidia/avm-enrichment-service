@@ -2,10 +2,11 @@
   "name": "avm-enrichment-service",
   "version": "1.0.0",
   "main": "src/server.ts",
-  "scripts": {
-    "start": "tsx src/server.ts",
-    "dev": "tsx watch src/server.ts"
-  },
+"scripts": {
+  "start": "tsx src/server.ts",
+  "dev": "tsx watch src/server.ts",
+  "postinstall": "npx playwright install chromium"
+}  },
   "dependencies": {
     "fastify": "^4.0.0",
     "playwright": "^1.0.0",
